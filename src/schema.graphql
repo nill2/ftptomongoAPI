@@ -1,0 +1,12 @@
+type Query {
+  latestDocument: Document
+}
+
+type Document {
+  _id: ID!
+  filename: String
+  date: float
+  bsonTime: datetime
+  size: int
+  data:
+}
